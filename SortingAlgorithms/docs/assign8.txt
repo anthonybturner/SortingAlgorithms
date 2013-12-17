@@ -1,0 +1,55 @@
+
+CPS315-01                Computer Science III               Fall 2013
+
+
+             Programming Assignment #8: Sorting Algorithms
+                        (Due date: 12/4/2013)
+
+
+    This assignment is to implement the following sorting algorithms
+in Chapter 12:
+
+    - selectionsort
+    - insertionsort
+    - mergesort
+    - quicksort
+    - heapsort
+
+    Please go to www.cs.colorado.edu/~main/dsoj.html to download the 
+skeletons of the algorithms.
+
+    The assignment includes two parts.
+
+(1) Part 1
+
+    Your main program should do the following for each algorithm:
+    - generate an array of size 100 of random integers;
+    - print the array before sorting;
+    - sort the array using the algorithm;
+    - print the array after sorting to make sure the algorithm works
+      correctly.
+
+(2) Part 2
+
+    Generate a table which looks like the following:
+
+    ---------------------------------------------------------------------
+      N    selectionsort insertionsort mergesort quicksort heapsort NlogN
+    ---------------------------------------------------------------------
+
+    1000
+
+    2000
+     .
+     .
+     .
+
+    10000
+
+    ---------------------------------------------------------------------
+
+    For each N = 1000, 2000, ..., 10,000, your program should
+    - generate an array of size N of random integers;
+    - sort the array using each algorithm and record the number of comparisons;
+    - report your results in the above table.
+
